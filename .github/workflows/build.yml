@@ -29,4 +29,4 @@ jobs:
       name: "Upload Artifact"
       with:
         name: goat
-        path: ./goat
+        path: ./goat-${{ matrix.os }}
