@@ -28,5 +28,5 @@ jobs:
     - uses: actions/upload-artifact@v4
       name: "Upload Artifact"
       with:
-        name: goat
+        name: goat-${{ matrix.os }}
         path: ./goat-${{ matrix.os }}
